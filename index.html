@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Meeting minutes for the Pomodoro Timer project team">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>Meeting Minutes - Lab 2</title>
+</head>
+<body>
+
+    <header>
+        <h1>Innovation Team - Lab 2</h1>
+        <nav>
+            <ul>
+                <li><a href="#minutes">Meeting Minutes</a></li>
+                <li><a href="#media">Multimedia</a></li>
+                <li><a href="#form-section">Feedback Form</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="minutes">
+            <header>
+                <h2>Pomodoro Timer Brainstorming Session</h2>
+                <h3>Date: April 14, 2026</h3>
+            </header>
+
+            <article>
+                <h3>Attendance List</h3>
+                <ul>
+                    <li>Mario Rossi</li>
+                    <li>Giulia Bianchi (Secretary)</li>
+                    <li><strong>Luca Verdi</strong> (Project Manager)</li>
+                </ul>
+
+                <h3>Meeting Agenda</h3>
+                <ol>
+                    <li>Review Lab 1 objectives</li>
+                    <li>Discuss HTML semantic structure</li>
+                    <li>Plan project milestones</li>
+                </ol>
+
+                <hr>
+
+                <h3>Unfinished Business</h3>
+                <p>We still need to finalize the <em>README.md</em> file from last week's assignment.</p>
+
+                <h3>New Business</h3>
+                <p>Today we decided to use <b>Semantic HTML</b> to improve the site's accessibility and SEO.</p>
+                
+                <p><span>Note:</span> This span is inside a paragraph to meet the lab requirements.</p>
+                <div>This div contains general layout information for the meeting notes.</div>
+
+                <details>
+                    <summary>Click to view miscellaneous comments and concerns</summary>
+                    <p>A team member asked if we can use CSS, but the answer is <strong>strictly prohibited</strong> for this lab.</p>
+                </details>
+            </article>
+        </section>
+
+        <section id="media">
+            <h2>Meeting Media</h2>
+            <figure>
+                <img src="diagramma.png" alt="Whiteboard diagram of the site architecture" width="400">
+                <figcaption>Site architecture discussed during the meeting.</figcaption>
+            </figure>
+
+            <h3>Audio Recording</h3>
+            <audio src="audio-meeting.mp4" controls>
+                Your browser does not support the audio element.
+            </audio>
+
+            <h3>Video Recording</h3>
+            <video src="video-meeting.mp4" width="400" controls>
+                Your browser does not support the video element.
+            </video>
+        </section>
+
+        <hr>
+
+        <section id="form-section">
+            <h2>Meeting Feedback Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+                    <label for="date">Today's Date:</label>
+                    <input type="date" id="date" name="date"><br><br>
+
+                    <p>Did you find the meeting helpful?</p>
+                    <input type="radio" id="yes" name="feedback" value="yes">
+                    <label for="yes">Yes</label>
+                    <input type="radio" id="no" name="feedback" value="no">
+                    <label for="no">No</label><br><br>
+
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <label for="newsletter">Subscribe to meeting updates</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Additional Details</legend>
+                    
+                    <label for="topic">Choose a topic:</label>
+                    <select id="topic" name="topic">
+                        <option value="technical">Technical</option>
+                        <option value="logistic">Logistic</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+
+                    <label for="browser-choice">Preferred Browser:</label>
+                    <input list="browsers" name="browser-choice" id="browser-choice">
+                    <datalist id="browsers">
+                        <option value="Chrome">
+                        <option value="Firefox">
+                        <option value="Safari">
+                        <option value="Edge">
+                    </datalist><br><br>
+
+                    <label for="comments">Comments:</label><br>
+                    <textarea id="comments" name="comments" rows="4" cols="30"></textarea><br><br>
+
+                    <button type="button">Submit Feedback</button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Created by Lucia for CSE 110</p>
+    </footer>
+
+</body>
+</html>
